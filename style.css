@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.scrollable-container{
+    overflow: scroll;
+    height: 100%;
+}
+.progress-bar{
+    position: sticky !important;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+}
